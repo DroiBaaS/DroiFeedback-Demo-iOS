@@ -1,1 +1,26 @@
-COCOAPODS: 0.39.0
+PODS:
+  - DroiCoreSDK (1.1.2605)
+  - DroiFeedbackSDK (1.0.1):
+    - DroiCoreSDK
+    - MBProgressHUD
+    - SDWebImage
+  - MBProgressHUD (1.0.0)
+  - SDWebImage (4.1.0):
+    - SDWebImage/Core (= 4.1.0)
+  - SDWebImage/Core (4.1.0)
+
+DEPENDENCIES:
+  - DroiCoreSDK
+  - DroiFeedbackSDK
+  - MBProgressHUD
+  - SDWebImage
+
+SPEC CHECKSUMS:
+  DroiCoreSDK: bb28f7f8e4b8f3c78339ec4ac31e5e03df088271
+  DroiFeedbackSDK: 4b2d1e1278889cbb2a1eb767e4ca03dbbb7af2e8
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  SDWebImage: 0e435c14e402a6730315a0fb79f95e68654d55a4
+
+PODFILE CHECKSUM: 1a7e49cba4a27cfe731fecf0a1d5614cf86b475d
+
+COCOAPODS: 1.2.1

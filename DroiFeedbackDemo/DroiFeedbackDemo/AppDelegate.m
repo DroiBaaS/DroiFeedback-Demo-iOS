@@ -11,7 +11,7 @@
 #import <DroiCoreSDK/DroiCoreSDK.h>
 #import <DroiFeedback/DroiFeedback.h>
 //请替换成从 DroiBaaS 官网申请的 反馈 ApiKey 同时info.plist中的DROI_APP_ID要修改
-#define DROI_FEEDBACK_API_KEY @""
+#define DROI_FEEDBACK_API_KEY @"KxVGJsQoLz0uVsGIUXd6ZRYvKKB7UT9BVPFpaUJjOAKsYTSmMZFC35i8VURf7DWu"
 @interface AppDelegate ()
 
 @end

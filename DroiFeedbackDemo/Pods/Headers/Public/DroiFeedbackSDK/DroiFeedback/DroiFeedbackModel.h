@@ -1,0 +1,1 @@
+../../../../DroiFeedbackSDK/DroiFeedback.framework/Headers/DroiFeedbackModel.h
