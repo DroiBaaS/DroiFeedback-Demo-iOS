@@ -9,6 +9,6 @@ post_install do |installer|
     require './Pods/DroiCoreSDK/scripts/postInstall.rb'
     DroiCoreParser.installParser()
 end
-
-
+pod 'SDWebImage'
+pod 'MBProgressHUD'
 end

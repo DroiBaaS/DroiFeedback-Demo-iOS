@@ -8,6 +8,10 @@
 
 #import "AppDelegate.h"
 #import "FeedbackViewController.h"
+#import <DroiCoreSDK/DroiCoreSDK.h>
+#import <DroiFeedback/DroiFeedback.h>
+//请替换成从 DroiBaaS 官网申请的 反馈 ApiKey 同时info.plist中的DROI_APP_ID要修改
+#define DROI_FEEDBACK_API_KEY @""
 @interface AppDelegate ()
 
 @end
@@ -18,6 +22,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    [DroiCore initializeCore];
+    [DroiFeedback initializeWithAPIKey:DROI_FEEDBACK_API_KEY];
     FeedbackViewController *feedbackVC = [[FeedbackViewController alloc] init];
     self.window.rootViewController = feedbackVC;
     self.window.backgroundColor = [UIColor whiteColor];
