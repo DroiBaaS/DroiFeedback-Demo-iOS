@@ -9,8 +9,8 @@
 在  Demo 的 `info.plist`文件中将`DROI_APP_ID`替换成从 DroiBaaS 后台中新申请的 AppId 可以参照[快速入门](http://www.droibaas.com/Index/docFile/mark_id/24137.html)
 
 **注意**  
--.Xcode 8.1 版本的 iOS 10模拟器存在官方的BUG会造成 CSDK 不能正常使用，Apple 已于 Xcode 8.2版本修复了该问题。
--.info.plist 配置Privacy - Photo Library Usage Description
--.本demo工程需要pod 'DroiCoreSDK',pod 'DroiFeedbackSDK',pod 'SDWebImage',pod 'MBProgressHUD'
--.图片上传成功了,但是列表界面没有正常显示,请检查info.plist中 App Transport Security Settings 是否有添加.
+- Xcode 8.1 版本的 iOS 10模拟器存在官方的BUG会造成 CSDK 不能正常使用，Apple 已于 Xcode 8.2版本修复了该问题。
+- info.plist 配置Privacy - Photo Library Usage Description
+- 本demo工程需要pod 'DroiCoreSDK',pod 'DroiFeedbackSDK',pod 'SDWebImage',pod 'MBProgressHUD'
+- 图片上传成功了,但是列表界面没有正常显示,请检查info.plist中 App Transport Security Settings 是否有添加
 
